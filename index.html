@@ -1,15 +1,116 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-    <meta charset="UTF-8">
-    <title>y-sugawara-portforio</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <title>ドンキーコング バナンザ | Nintendo Switch 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; padding:0; font-family: sans-serif; line-height: 1.6; color: #333; }
+    header { background-color: #000; color: #fff; padding: 20px; }
+    .logo { font-size: 1.5rem; }
+    nav { margin-top: 10px; }
+    nav a { color: #fff; margin-right: 15px; text-decoration: none; }
+    .hero { position: relative; text-align: center; color: #fff; }
+    .hero img { width: 100%; height: auto; display: block; }
+    .hero .title { position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); font-size: 3rem; }
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    .section-title { font-size: 2rem; margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap: 20px; }
+    .card { border: 1px solid #ccc; padding: 20px; }
+    .price { font-size: 1.8rem; color: #e60012; }
+    footer { background-color: #f4f4f4; padding: 20px; text-align: center; font-size: 0.9rem; }
+  </style>
 </head>
-
 <body>
-    <h1>y-sugawara-portforio</h1>
-    <h2>自己紹介かいてこー</h2>
-</body>
 
+<header>
+  <div class="logo">Nintendo Switch 2</div>
+  <nav>
+    <a href="#story">STORY & CHARACTER</a>
+    <a href="#stage">STAGE & EXPLORATION</a>
+    <a href="#action">ACTION</a>
+    <a href="#transform">BANANZA 変身</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="hero-image.jpg" alt="ドンキーコング バナンザ キービジュアル">
+  <div class="title">ドンキーコング バナンザ</div>
+  <div class="subtitle">体験版 配信中</div>
+</section>
+
+<section id="story">
+  <h2 class="section-title">ストーリー & キャラクター</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>ストーリー</h3>
+      <p>大嵐に巻き込まれ、気がつくと・・（ストーリー本文）</p>
+    </div>
+    <div class="card">
+      <h3>キャラクター：ドンキーコング</h3>
+      <img src="dk.jpg" alt="ドンキーコング">
+      <p>ネクタイがトレードマーク、ふだんは温厚な怪力の持ち主・・・</p>
+    </div>
+    <div class="card">
+      <h3>キャラクター：ポリーン</h3>
+      <img src="pauline.jpg" alt="ポリーン">
+      <p>歌うのが好きな13歳の少女・・・</p>
+    </div>
+  </div>
+</section>
+
+<section id="stage">
+  <h2 class="section-title">ステージ & 探索</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="stage1.jpg" alt="ステージ1">
+      <p>地下世界の景色が階層で変わる、夕日、原生林など・・・</p>
+    </div>
+    <div class="card">
+      <img src="hidden-area.jpg" alt="隠れたエリア">
+      <p>隠れたバナナを探そう・探索要素豊富</p>
+    </div>
+  </div>
+</section>
+
+<section id="action">
+  <h2 class="section-title">アクション</h2>
+  <ul>
+    <li>パンチ</li>
+    <li>ローリング</li>
+    <li>急降下パンチ</li>
+    <li>破片をひっこぬく etc.</li>
+  </ul>
+</section>
+
+<section id="transform">
+  <h2 class="section-title">バナンザ変身</h2>
+  <p>変身モードを使うとスピード・飛行などさまざまな能力が発揮される。</p>
+  <div class="grid">
+    <div class="card">
+      <img src="kong-form.jpg" alt="コングバナンザ">
+      <p>コングバナンザ - 腕力アップ＆チャージパンチ</p>
+    </div>
+    <div class="card">
+      <img src="zebra-form.jpg" alt="シマウマバナンザ">
+      <p>シマウマバナンザ - 水上でも移動可能 etc.</p>
+    </div>
+    <!-- 他の変身モード -->
+  </div>
+</section>
+
+<section class="purchase">
+  <h2 class="section-title">価格と発売日</h2>
+  <p>発売日：2025年7月17日</p>
+  <p class="price">ダウンロード版 7,980円（税込）</p>
+  <p class="price">パッケージ版 8,980円（税込）</p>
+  <a href="store-link.html">購入する</a>
+</section>
+
+<footer>
+  <p>&copy; Nintendo</p>
+  <p>※ゲームチャットを利用して・・などの注意書きなど</p>
+</footer>
+
+</body>
 </html>
